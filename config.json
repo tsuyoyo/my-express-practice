@@ -1,0 +1,15 @@
+{
+	"databaseAuth": {
+		"user": "test_account",
+		"database": "express_sample_140224",
+		"password": "password123",
+		"host": "localhost",
+		"port": 3306
+	},
+
+	"sessionAuth": {
+		"host": "localhost",
+		"port": 11211
+	},
+	"cookieHash": "dummyCookieHash"
+}

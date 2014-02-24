@@ -1,0 +1,7 @@
+# Initialize Database
+CREATE DATABASE express_sample_140224 default character set utf8;
+
+# Create account
+# GRANT ALL PRIVILEGES ON データベース名.* TO ユーザー名@localhost IDENTIFIED BY 'パスワード';
+GRANT ALL PRIVILEGES ON express_sample_140224.* TO 'test_account'@'localhost' IDENTIFIED BY 'password123';
+FLUSH PRIVILEGES;
