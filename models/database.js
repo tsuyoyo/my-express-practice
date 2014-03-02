@@ -25,7 +25,7 @@ Database.prototype.query = function(query, params, callback) {
 Database.prototype.end = function (callback) {
 	if (this.client) {
 		this.client.end(callback);
-		delete this.client:
+		delete this.client;
 	}
 }
 

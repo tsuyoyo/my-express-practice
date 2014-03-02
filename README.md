@@ -17,3 +17,8 @@
 # 気付いた事
 * この本はexpress 3.0.3 をベースにしているが、2014/2/24時点で既にちょっと古い (3.4.8) 。
     * app.configure は既にlegacy扱いになっていて、expressの作るスケルトンには出てこない。
+* view/public/css 以下にbootstrap-responsive.min.cssを格納しているが、bootstrap3でこのファイルは不要になっている。[参考](http://bootstrap.s1.adexd.net/)
+
+# Jade
+* extendsとblock [参考](https://gist.github.com/japboy/5402844#extends-%E3%81%A8-block)
+
